@@ -38,3 +38,9 @@
   font-size: 14px;
 
 }
+
+.burger div{
+  width:25px;
+  height:5px;
+  color: grey;
+}
