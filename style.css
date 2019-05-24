@@ -20,7 +20,7 @@
 
 }
 
-.nav-link{
+.nav-links{
   display: flex;
   background-color: red;
   justify-content: space-around;
@@ -28,7 +28,7 @@
 
 }
 .navlinks li{
-  list-style: none; 
+  list-style: none;
 }
 .navlinks a{
   color: grey;
