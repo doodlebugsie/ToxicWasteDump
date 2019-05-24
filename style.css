@@ -41,6 +41,6 @@
 
 .burger div{
   width:25px;
-  height:5px;
-  color: grey;
+  height:2px;
+  background-color: grey;
 }
