@@ -89,13 +89,12 @@
 
 }
 
-@keyframes navLinkFade {
+@keyframes navLinkFadeIn {
   from{
     opacity: 0;
     transform: translatex(50px);
   }
   to{
     opacity: 1;
-    transform: translateX(0px)
+    transform: translateX(0px);
   }
-}
