@@ -19,18 +19,18 @@
   letter-spacing: 5px;
 
 }
-/* navlinks CSS shit is for making my navlinks look fancy */
-.navlinks{
+/* nav-links CSS shit is for making my nav-links look fancy */
+.nav-links{
   display: flex;
   background-color: white;
   justify-content: space-around;
   width: 60%;
 
 }
-.navlinks li{
+.nav-links li{
   list-style: none;
 }
-.navlinks a{
+.nav-links a{
   color: grey;
   text-decoration: none;
   letter-spacing: 3px;
@@ -38,7 +38,7 @@
   font-size: 14px;
 
 }
-/* all burger related code refers to the 3 lined button which you click to pop out navlinks */
+/* all burger related code refers to the 3 lined button which you click to pop out nav-links */
 .burger {
   display: none;
   cursor: pointer;
@@ -52,7 +52,7 @@
 }
 /* media is for screen adjustments when resizing/viewing on tablet/viewing on mobile*/
 @media screen and (max-width:1024px){
-  .navlinks{
+  .nav-links{
     width: 60%;
 
   }
@@ -62,7 +62,7 @@
   body{
     overflow-x: hidden;
   }
-  .navlinks{
+  .nav-links{
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -75,7 +75,7 @@
     transform: translateX(100%);
     transition: transform 0.5 ease-in;
   }
-  .navlinks li{
+  .nav-links li{
     opacity: 0;
   }
   .burger{
