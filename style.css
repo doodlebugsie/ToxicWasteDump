@@ -7,7 +7,7 @@
   nav{
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    background-color: white;
     align-items: center;
     min-height: 8vh;
     font-family: 'Raleway', sans-serif;
@@ -23,7 +23,7 @@
 /* nav-links CSS shit is for making my nav-links look fancy */
 .nav-links{
   display: flex;
-  background-color: red;
+  background-color: white;
   justify-content: space-around;
   width: 60%;
 
@@ -85,7 +85,7 @@
 .nav-active {
   transform: translateX(0%);
   transition: transform 0.5 ease-in;
-  background-color: red;
+  background-color: white;
 
 }
 
