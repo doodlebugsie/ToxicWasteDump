@@ -21,7 +21,7 @@ section {
   color: #fff;
 }
 
-header {
+h1 {
   display: block;
   padding: 10px;
   font-family: "Space Mono", monospace;
