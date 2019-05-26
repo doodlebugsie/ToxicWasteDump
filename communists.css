@@ -28,7 +28,7 @@ h1 {
   font-size: 22px;
   border-bottom: 2px solid;
   user-select: none;
-
+}
 summary {
   display: block;
   cursor: pointer;
