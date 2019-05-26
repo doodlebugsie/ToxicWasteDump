@@ -21,6 +21,14 @@ section {
   color: #fff;
 }
 
+h1 {
+  display: block;
+  padding: 10px;
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  border-bottom: 2px solid;
+  user-select: none;
+
 summary {
   display: block;
   cursor: pointer;
