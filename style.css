@@ -45,11 +45,13 @@
   cursor: pointer;
 }
 
-.burger div{
+.burger > div{
   width:25px;
-  height:5px;
+  height:2px;
+  background-color: white;
   background-color: grey;
-  margin:4px;
+  margin:5px;
+  transition: all 0.3s ease;
 }
 /* media is for screen adjustments when resizing/viewing on tablet/viewing on mobile*/
 @media screen and (max-width:1024px){
