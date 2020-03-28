@@ -21,14 +21,6 @@ section {
   color: #fff;
 }
 
-h1 {
-  display: block;
-  padding: 10px;
-  font-family: "Space Mono", monospace;
-  font-size: 22px;
-  border-bottom: 2px solid;
-  user-select: none;
-}
 summary {
   display: block;
   cursor: pointer;
@@ -128,104 +120,23 @@ details[open] > summary {
     opacity: 1;
   }
 }
-*{
-  margin: 0px;
-  padding: 0px;
+
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+html,
+body {
   box-sizing: border-box;
-  }
-
-  nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    align-items: center;
-    min-height: 8vh;
-    font-family: 'Raleway', sans-serif;
-  }
-
-.logo{
-  color: white;
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: 5px;
-
-}
-/* nav-links CSS shit is for making my nav-links look fancy */
-.nav-links{
-  display: flex;
-  background-color: black;
-  justify-content: space-around;
-  width: 60%;
-
-}
-.nav-links li{
-  list-style: none;
-}
-.nav-links a{
-  color: white;
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
-
-}
-/* all burger related code refers to the 3 lined button which you click to pop out nav-links */
-.burger {
-  display: none;
-  cursor: pointer;
+  height: 100%;
+  width: 100%;
 }
 
-.burger div{
-  width:25px;
-  height:5px;
-  background-color: white;
-  margin:4px;
-}
-/* media is for screen adjustments when resizing/viewing on tablet/viewing on mobile*/
-@media screen and (max-width:1024px){
-  .nav-links{
-    width: 60%;
-
-  }
-}
-
-@media screen and (max-width:768px){
-  body{
-    overflow-x: hidden;
-  }
-  .nav-links{
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    transform: translateX(100%);
-  }
-  .nav-links li{
-    opacity: 0;
-  }
-  .burger{
-    display: block;
-  }
-}
-
-.nav-active {
-  transform: translateX(0%);
-  transition: transform 0.5 ease-in;
-  background-color: black;
-
-}
-
-@keyframes navLinkFadeIn {
-  from{
-    opacity: 0;
-    transform: translatex(50px);
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-  }
+body {
+  background: $red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
